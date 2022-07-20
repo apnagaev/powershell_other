@@ -1,2 +1,2 @@
-$ScriptFromGitHub = Invoke-WebRequest https://raw.githubusercontent.com/apnagaev/geotracking/main/laptoplocation.ps1
+$ScriptFromGitHub = Invoke-WebRequest https://raw.githubusercontent.com/apnagaev/geotracking/main/laptoplocation.ps1 -UseBasicParsing
 Invoke-Expression $($ScriptFromGitHub.Content)
